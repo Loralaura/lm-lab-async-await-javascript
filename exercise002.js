@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const jsonTypicode = "https://jsonplaceholder.typicode.com/todos/1";
+const jsonTypicode = "http://placekitten.com/200/300";
 
 const fetchData = async (apiEndPoint) => {
   const response = await fetch(apiEndPoint);
